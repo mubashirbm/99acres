@@ -1,6 +1,5 @@
 import React from 'react'
 import AllIndia from './AllIndia'
-import Nav from './Nav'
 import ContactUs from './ContactUs'
 import Toggle from './Toggle'
 import User from './User'

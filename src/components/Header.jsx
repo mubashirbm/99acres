@@ -9,7 +9,7 @@ import ScrolledNav from "./ScrolledNav";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
-  let height = useEffect(() => {
+  useEffect(() => {
     const handleScroll = () => {
       const isScrolled = window.scrollY > 300;
       setScrolled(isScrolled);
